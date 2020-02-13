@@ -8,24 +8,24 @@
     <url>http://www.fanvil.com/</url>
 	<templatetype>supported</templatetype>
     <models>
-	  <model ua="Fanvil X1">Fanvil X1</model>
-	  <model ua="Fanvil X2">Fanvil X2</model>
-      <model ua="Fanvil X3">Fanvil X3</model>
-      <model ua="Fanvil X2C">Fanvil X2C</model>
-      <model ua="Fanvil X3S">Fanvil X3S</model>
-      <model ua="Fanvil X4">Fanvil X4</model>
-      <model ua="Fanvil X5">Fanvil X5</model>
-	  <model ua="Fanvil X6" defaultlogo="X6.bmp" logowidth="480" logoheight="272" logobitdepth="24">Fanvil X6</model>
-	  <model ua="Fanvil X7" defaultlogo="X7.bmp" logowidth="800" logoheight="480" logobitdepth="24">Fanvil X7</model>
-	  <model ua="Fanvil X210" defaultlogo="X210.bmp" logowidth="480" logoheight="272" logobitdepth="24">Fanvil X210</model>
-	  <model ua="Fanvil X1S">Fanvil X1S</model>
-	  <model ua="Fanvil X3U" defaultlogo="X3U.bmp" logowidth="320" logoheight="240" logobitdepth="16">Fanvil X3U</model>
-	  <model ua="Fanvil X3SG" defaultlogo="X3SG.bmp" logowidth="320" logoheight="240" logobitdepth="16">Fanvil X3SG</model>
-	  <model ua="Fanvil X4U" defaultlogo="X4U.bmp" logowidth="320" logoheight="240" logobitdepth="16">Fanvil X4U</model>
-	  <model ua="Fanvil X5U" defaultlogo="X5U.bmp" logowidth="480" logoheight="320" logobitdepth="16">Fanvil X5U</model>
-      <model ua="Fanvil X5S" defaultlogo="X5S.bmp" logowidth="480" logoheight="320" logobitdepth="16">Fanvil X5S</model>
-	  <model ua="Fanvil X6U" defaultlogo="X6U.bmp" logowidth="480" logoheight="272" logobitdepth="24">Fanvil X6U</model>
-	  <model ua="Fanvil X7C" defaultlogo="X7C.bmp" logowidth="800" logoheight="480" logobitdepth="24">Fanvil X7C</model>
+      <model ua="Fanvil X1">Fanvil X1 Custom</model>
+      <model ua="Fanvil X2">Fanvil X2 Custom</model>
+      <model ua="Fanvil X3">Fanvil X3 Custom</model>
+      <model ua="Fanvil X2C">Fanvil X2C Custom</model>
+      <model ua="Fanvil X3S" defaultlogo="X3S.bmp" logowidth="320" logoheight="240" logobitdepth="16">Fanvil X3S Custom</model>
+      <model ua="Fanvil X4" defaultlogo="X4.bmp" logowidth="320" logoheight="240" logobitdepth="16">Fanvil X4 Custom</model>
+      <model ua="Fanvil X5">Fanvil X5 Custom</model>
+      <model ua="Fanvil X6" defaultlogo="X6.bmp" logowidth="480" logoheight="272" logobitdepth="24">Fanvil X6 Custom</model>
+      <model ua="Fanvil X7" defaultlogo="X7.bmp" logowidth="800" logoheight="480" logobitdepth="24">Fanvil X7 Custom</model>
+      <model ua="Fanvil X210" defaultlogo="X210.bmp" logowidth="480" logoheight="272" logobitdepth="24">Fanvil X210 Custom</model>
+      <model ua="Fanvil X1S">Fanvil X1S Custom</model>
+      <model ua="Fanvil X3U" defaultlogo="X3U.bmp" logowidth="320" logoheight="240" logobitdepth="16">Fanvil X3U Custom</model>
+      <model ua="Fanvil X3SG" defaultlogo="X3SG.bmp" logowidth="320" logoheight="240" logobitdepth="16">Fanvil X3SG Custom</model>
+      <model ua="Fanvil X4U" defaultlogo="X4U.bmp" logowidth="320" logoheight="240" logobitdepth="16">Fanvil X4U Custom</model>
+      <model ua="Fanvil X5U" defaultlogo="X5U.bmp" logowidth="480" logoheight="320" logobitdepth="16">Fanvil X5U Custom</model>
+      <model ua="Fanvil X5S" defaultlogo="X5S.bmp" logowidth="480" logoheight="320" logobitdepth="16">Fanvil X5S Custom</model>
+      <model ua="Fanvil X6U" defaultlogo="X6U.bmp" logowidth="480" logoheight="272" logobitdepth="24">Fanvil X6U Custom</model>
+      <model ua="Fanvil X7C" defaultlogo="X7C.bmp" logowidth="800" logoheight="480" logobitdepth="24">Fanvil X7C Custom</model>
     </models>
 
     <description>Fanvil IP Phone</description>
@@ -144,6 +144,12 @@
         <item name="langlcdold">0</item>
         <item name="langlcdx3">0</item>
         <item name="langlcdx3id">slo</item>
+      </option>
+      <option value="Portugues">
+        <item name="langlcdnew">14</item>
+        <item name="langlcdold">1</item>
+        <item name="langlcdx3">0</item>
+        <item name="langlcdx3id">pt</item>
       </option>
     </languages>
     <ringtones>
@@ -2391,7 +2397,7 @@
 <DST_End_Wday>%%dstendday%%</DST_End_Wday>
 <DST_End_Hour>%%dstendhour%%</DST_End_Hour>
 <DST_End_Min>%%dstendmin%%</DST_End_Min>
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S,Fanvil X7,Fanvil X7C,Fanvil X210}
 <Default_UI>%%langlcdx3id%%</Default_UI>
 {ELSE}
 <Default_UI>%%langlcdold%%</Default_UI>
@@ -2403,7 +2409,7 @@
 <Language>%%langlcdnew%%</Language>
 {ENDIF}
 </GLOBAL_CONFIG_MODULE>
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S,Fanvil X7,Fanvil X7C,Fanvil X210}
 <MM_CONFIG_MODULE>
 <RTP_Keep_Alive>1</RTP_Keep_Alive>
 <PHONE_CONFIG>
@@ -2419,14 +2425,14 @@
 {IF ua=Fanvil X1,Fanvil X2C,Fanvil X2,Fanvil X3,Fanvil X3S,Fanvil X4,Fanvil X5}
 <Memory_Key_to_BXfer>1</Memory_Key_to_BXfer>
 {ENDIF}
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S,Fanvil X7,Fanvil X7C,Fanvil X210}
 <Memory_Key_to_BXfer>%%XFERmethod_Value%%</Memory_Key_to_BXfer>
 {ENDIF}
 <Main_Digit_Prefix></Main_Digit_Prefix>
 <Port_Config>
 <Port_Config_Entry>
 <ID>P1</ID>
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S,Fanvil X7,Fanvil X7C,Fanvil X210}
 <Enable_DND>1</Enable_DND>
 {ENDIF}
 <CallSemiXfer>0</CallSemiXfer>
@@ -2437,14 +2443,14 @@
 <DND_Code>1</DND_Code>
 <Busy_Code>2</Busy_Code>
 <Reject_Code>2</Reject_Code>
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S,Fanvil X7,Fanvil X7C,Fanvil X210}
 <DND_Code>480</DND_Code>
 <Busy_Code>486</Busy_Code>
 <Reject_Code>486</Reject_Code>
 {ENDIF}
 <CID_Prioiry>1</CID_Prioiry>
 <Disp_num_with_na>0</Disp_num_with_na>
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S,Fanvil X7,Fanvil X7C,Fanvil X210}
 <Default_Ans_mode>2</Default_Ans_mode>
 <Default_Dial_mode>1</Default_Dial_mode>
 {ENDIF}
@@ -2724,7 +2730,7 @@
 <Proxy_Pswd>%%extension_auth_pw%%</Proxy_Pswd>
 <FWD_Timer>60</FWD_Timer>
 <Ring_Type>%%defringtone%%</Ring_Type>
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
 <RingType>%%defringtone%%</RingType>
 {ENDIF}
 <NAT_UDPUpdate>1</NAT_UDPUpdate>
@@ -2760,7 +2766,7 @@
 <Req_With_Port>0</Req_With_Port>
 <Unreg_Reboot>1</Unreg_Reboot>
 <UnregisterOnBoot>1</UnregisterOnBoot>
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
 <Enable_MAC_Header>1</Enable_MAC_Header>
 <Enable_Register_MAC>1</Enable_Register_MAC>
 {ENDIF}
@@ -2771,7 +2777,7 @@
 {IF ua=Fanvil X1,Fanvil X2C,Fanvil X2,Fanvil X3S,Fanvil X4}
 <BLF_dialog_mat>1</BLF_dialog_mat>
 {ENDIF}
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
 <BLFDialogMatch>1</BLFDialogMatch>
 {ENDIF}
 </SIP_Line_List_Entry>
@@ -2888,7 +2894,7 @@
 <LLDP_Transmit>%%lldpenabled%%</LLDP_Transmit>
 <LLDP_Refresh_Time>60</LLDP_Refresh_Time>
 {ENDIF}
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
 <EnableVLAN>%%vlanwanenabled%%</EnableVLAN>
 <VLANID>%%vlanwanportid%%</VLANID>
 <SignallingPriority>%%vlanwanportpriority%%</SignallingPriority>
@@ -2910,7 +2916,7 @@
 <Enable_Watch_Dog>1</Enable_Watch_Dog>
 </DEBUG_CONFIG_MODULE>
 <PHONE_FEATURE_MODULE>
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
 <Power_LED>
 <Power_LED_Entry>
 <MWIOrSMS>%%mwiledx6%%</MWIOrSMS>
@@ -3779,7 +3785,7 @@
 {IF ua=Fanvil X1,Fanvil X2C,Fanvil X2,Fanvil X3,Fanvil X3S,Fanvil X4,Fanvil X5}
 <Backlight_Off_Time>%%blktime%%</Backlight_Off_Time>
 {ENDIF}
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
 <BacklightOffTime>%%blktime%%</BacklightOffTime>
 {ENDIF}
 <Enable_Power_LED>0</Enable_Power_LED>
@@ -3790,7 +3796,7 @@
 {IF ua=Fanvil X1,Fanvil X2C,Fanvil X2,Fanvil X3,Fanvil X3S,Fanvil X4,Fanvil X5}
 <Time_Display_Style>%%timestyle%%</Time_Display_Style>
 {ENDIF}
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
 <TimeDisplayStyle>%%timestyle%%</TimeDisplayStyle>
 {ENDIF}
 <Enable_TimeDisplay>1</Enable_TimeDisplay>
@@ -3804,7 +3810,7 @@
 <Date_Display_Style>%%datestylex4%%</Date_Display_Style>
 <Date_Separator>%%datesep%%</Date_Separator>
 {ENDIF}
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X5S,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
 <DateDisplayStyle>%%datestylex6%%</DateDisplayStyle>
 <DateSeparator>%%datesep%%</DateSeparator>
 {ENDIF}
@@ -8970,7 +8976,7 @@
 <Auto_Etc_Url>%%PROVLINK%%/%%logo%%</Auto_Etc_Url>
 {ENDIF}
 {ENDIF}
-{IF ua=Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X7,Fanvil X7C,Fanvil X210}
 {IF network=LOCALLAN}
 <Auto_Etc_Url>%%PROVLINKLOCAL%%/%%logo%%</Auto_Etc_Url>
 {ELSE}
@@ -8991,7 +8997,7 @@
 {ENDIF}
 <Download_Mode>2</Download_Mode>
 <Download_Interval>24</Download_Interval>
-{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3SG,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S}
+{IF ua=Fanvil X1S,Fanvil X3U,Fanvil X3S,Fanvil X3SG,Fanvil X4,Fanvil X4U,Fanvil X5U,Fanvil X6U,Fanvil X6,Fanvil X5S}
 <FlashInterval>24</FlashInterval>
 {ENDIF}
 <DHCP_Option>0</DHCP_Option>

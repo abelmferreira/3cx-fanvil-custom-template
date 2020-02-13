@@ -11,6 +11,6 @@ Este template adiciona o idioma Portugues para seleção e também habilita o ca
 
 - No provisionamento escolha o modelo apropriado procurando pelo modelo do aparelho Fanvil com o complemento no nome "Custom"
 
-### Especicicação da imagem para background ###
+### Especificações para background ###
 
 ![alt text](https://raw.githubusercontent.com/abelmferreira/3cx-fanvil-custom-template/master/fanvil_bg_confs.jpg)
